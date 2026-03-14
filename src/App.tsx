@@ -6,6 +6,11 @@ import {
   Navigate,
 } from "react-router-dom";
 import { AuthProvider } from "./context/AuthContext";
+
+//videocall page
+
+import VideoCallPage from "./pages/videocall/VideoCallPage";
+
 //Calendar Page
 
 import CalendarPage from "./pages/Calendar/CalendarPage";
@@ -43,6 +48,11 @@ function App() {
     <AuthProvider>
       <Router>
         <Routes>
+          {/* Video Call Route */}
+          <Route path="/videocall" element={<DashboardLayout />}>
+            <Route index element={<VideoCallPage />} />
+          </Route>
+
           {/* Calendar Route */}
           <Route path="/calendar" element={<DashboardLayout />}>
             <Route index element={<CalendarPage />} />

@@ -3,9 +3,8 @@ import { NavLink } from 'react-router-dom';
 import { useAuth } from '../../context/AuthContext';
 import { 
   Home, Building2, CircleDollarSign, Users, MessageCircle, 
-  Bell, FileText, Settings, HelpCircle, Calendar
+  Bell, FileText, Settings, HelpCircle, Calendar, Video
 } from 'lucide-react';
-
 interface SidebarItemProps {
   to: string;
   icon: React.ReactNode;
@@ -41,6 +40,7 @@ const entrepreneurItems = [
     { to: '/profile/entrepreneur/' + user.id, icon: <Building2 size={20} />, text: 'My Startup' },
     { to: '/investors', icon: <CircleDollarSign size={20} />, text: 'Find Investors' },
     { to: '/calendar', icon: <Calendar size={20} />, text: 'Calendar' },
+    { to: '/videocall', icon: <Video size={20} />, text: 'Video Call' },
     { to: '/messages', icon: <MessageCircle size={20} />, text: 'Messages' },
     { to: '/notifications', icon: <Bell size={20} />, text: 'Notifications' },
     { to: '/documents', icon: <FileText size={20} />, text: 'Documents' },
@@ -51,6 +51,7 @@ const investorItems = [
     { to: '/profile/investor/' + user.id, icon: <CircleDollarSign size={20} />, text: 'My Portfolio' },
     { to: '/entrepreneurs', icon: <Users size={20} />, text: 'Find Startups' },
     { to: '/calendar', icon: <Calendar size={20} />, text: 'Calendar' },
+    { to: '/videocall', icon: <Video size={20} />, text: 'Video Call' },
     { to: '/messages', icon: <MessageCircle size={20} />, text: 'Messages' },
     { to: '/notifications', icon: <Bell size={20} />, text: 'Notifications' },
     { to: '/deals', icon: <FileText size={20} />, text: 'Deals' },

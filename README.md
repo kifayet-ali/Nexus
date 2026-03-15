@@ -1,7 +1,7 @@
 # Nexus – Investor & Entrepreneur Collaboration Platform
 
 ## 🚀 Live Demo
-- **Vercel:** https://nexus-9ilbo62s4-kifayet-alis-projects.vercel.app
+- **Vercel:** [https://nexus-9ilbo62s4-kifayet-alis-projects.vercel.app](https://nexus-gray-mu.vercel.app)
 - **GitHub:** https://github.com/kifayet-ali/Nexus
 
 ## 📋 Project Structure

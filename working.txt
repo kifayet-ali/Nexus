@@ -7,3 +7,7 @@ Vercel: https://nexus-9ilbo62s4-kifayet-alis-projects.vercel.app
 Week 1 - Day 3 (Video Call)
 GitHub: https://github.com/kifayet-ali/Nexus
 Vercel: https://nexus-9ilbo62s4-kifayet-alis-projects.vercel.app
+
+Week 2 Deliverables
+GitHub: https://github.com/kifayet-ali/Nexus
+Vercel: https://nexus-9ilbo62s4-kifayet-alis-projects.vercel.app

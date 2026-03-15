@@ -18,6 +18,7 @@
 - FullCalendar
 - Lucide React (icons)
 - Axios
+- React Signature Canvas
 
 ## ✅ Features Completed
 
@@ -42,6 +43,15 @@
 - Screen share toggle
 - Participants list
 - Upcoming calls panel
+
+### Week 2 - Milestone 4: Document Processing Chamber
+- Upload PDF/DOC/DOCX files via drag & drop
+- Document preview modal
+- E-signature pad (draw your signature)
+- Status labels: Draft / In Review / Signed
+- Update status panel for each document
+- Document stats dashboard
+- Delete documents
 
 ## 🔧 Run Locally
 \`\`\`

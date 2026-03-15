@@ -7,6 +7,9 @@ import {
 } from "react-router-dom";
 import { AuthProvider } from "./context/AuthContext";
 
+//documents page
+import DocumentChamberPage from "./pages/documents-chamber/DocumentChamberPage";
+
 //videocall page
 
 import VideoCallPage from "./pages/videocall/VideoCallPage";
@@ -51,6 +54,11 @@ function App() {
           {/* Video Call Route */}
           <Route path="/videocall" element={<DashboardLayout />}>
             <Route index element={<VideoCallPage />} />
+          </Route>
+
+          {/* Document Chamber Route */}
+          <Route path="/document-chamber" element={<DashboardLayout />}>
+            <Route index element={<DocumentChamberPage />} />
           </Route>
 
           {/* Calendar Route */}

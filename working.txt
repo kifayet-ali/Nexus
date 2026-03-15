@@ -1,13 +1,22 @@
-Week 1 - Day 1 (start)
-GitHub: https://github.com/kifayet-ali/Nexus
-Vercel: https://nexus-9ilbo62s4-kifayet-alis-projects.vercel.app
-Week 1 - Day 2 (Calendar)
-GitHub: https://github.com/kifayet-ali/Nexus
-Vercel: https://nexus-9ilbo62s4-kifayet-alis-projects.vercel.app
-Week 1 - Day 3 (Video Call)
-GitHub: https://github.com/kifayet-ali/Nexus
-Vercel: https://nexus-9ilbo62s4-kifayet-alis-projects.vercel.app
+# Nexus Internship — Weekly Report
 
-Week 2 Deliverables
-GitHub: https://github.com/kifayet-ali/Nexus
-Vercel: https://nexus-9ilbo62s4-kifayet-alis-projects.vercel.app
+**Intern:** Kifayet Ali  
+**Internship:** DevelopersHub Corporation  
+**Deadline:** 27 March 2026  
+
+## Links
+- GitHub: https://github.com/kifayet-ali/Nexus
+- Vercel: https://nexus-9ilbo62s4-kifayet-alis-projects.vercel.app
+
+## Week 1 ✅
+- Setup & Familiarization
+- Meeting Scheduling Calendar
+
+## Week 2 ✅
+- Video Calling UI
+- Document Chamber
+
+## Week 3 ⬜
+- Payment Section
+- Security & Access Control
+- Integration & Demo Prep

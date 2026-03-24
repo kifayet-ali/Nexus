@@ -2,7 +2,7 @@ import React, { useState, useRef } from 'react';
 import SignatureCanvas from 'react-signature-canvas';
 import {
   FileText, Upload, Eye, PenTool, CheckCircle,
-  Clock, Edit, Trash2, X, Download
+  Clock, Edit, Trash2, X
 } from 'lucide-react';
 
 interface Document {

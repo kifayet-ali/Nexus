@@ -42,7 +42,6 @@ const CalendarPage: React.FC = () => {
   ]);
 
   const [showModal, setShowModal] = useState(false);
-  const [selectedDate, setSelectedDate] = useState('');
   const [newMeeting, setNewMeeting] = useState({
     title: '',
     start: '',
@@ -51,7 +50,6 @@ const CalendarPage: React.FC = () => {
 
   // Jab calendar pe date click ho
   const handleDateClick = (arg: any) => {
-    setSelectedDate(arg.dateStr);
     setNewMeeting({ title: '', start: arg.dateStr + 'T09:00', end: arg.dateStr + 'T10:00' });
     setShowModal(true);
   };

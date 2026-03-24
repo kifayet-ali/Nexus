@@ -83,7 +83,7 @@ const CalendarPage: React.FC = () => {
 
   return (
     <div className="p-6 max-w-7xl mx-auto">
-      <h1 className="text-2xl font-bold text-gray-800 mb-6">📅 Meeting Scheduler</h1>
+      <h1 className="text-2xl font-bold text-gray-800 mb-6"> Meeting Scheduler</h1>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
 
@@ -111,7 +111,7 @@ const CalendarPage: React.FC = () => {
           {/* Pending Requests */}
           <div className="bg-white rounded-xl shadow p-4">
             <h2 className="font-semibold text-gray-700 mb-3">
-              ⏳ Pending Requests ({pendingMeetings.length})
+               Pending Requests ({pendingMeetings.length})
             </h2>
             {pendingMeetings.length === 0 && (
               <p className="text-sm text-gray-400">No pending requests</p>
@@ -125,13 +125,13 @@ const CalendarPage: React.FC = () => {
                     onClick={() => handleStatus(m.id, 'accepted')}
                     className="flex-1 bg-green-500 text-white text-xs py-1 rounded hover:bg-green-600"
                   >
-                    ✅ Accept
+                     Accept
                   </button>
                   <button
                     onClick={() => handleStatus(m.id, 'declined')}
                     className="flex-1 bg-red-500 text-white text-xs py-1 rounded hover:bg-red-600"
                   >
-                    ❌ Decline
+                     Decline
                   </button>
                 </div>
               </div>
@@ -141,7 +141,7 @@ const CalendarPage: React.FC = () => {
           {/* Confirmed Meetings */}
           <div className="bg-white rounded-xl shadow p-4">
             <h2 className="font-semibold text-gray-700 mb-3">
-              ✅ Confirmed Meetings ({confirmedMeetings.length})
+               Confirmed Meetings ({confirmedMeetings.length})
             </h2>
             {confirmedMeetings.length === 0 && (
               <p className="text-sm text-gray-400">No confirmed meetings</p>
@@ -161,7 +161,7 @@ const CalendarPage: React.FC = () => {
       {showModal && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
           <div className="bg-white rounded-xl p-6 w-96 shadow-xl">
-            <h2 className="text-lg font-bold mb-4">➕ New Meeting Request</h2>
+            <h2 className="text-lg font-bold mb-4"> New Meeting Request</h2>
 
             <input
               type="text"

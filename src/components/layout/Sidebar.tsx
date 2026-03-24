@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import { useAuth } from '../../context/AuthContext';
 import { 
   Home, Building2, CircleDollarSign, Users, MessageCircle, 
-  Bell, FileText, Settings, HelpCircle, Calendar, Video, FolderOpen
+  Bell, FileText, Settings, HelpCircle, Calendar, Video, FolderOpen, CreditCard
 } from 'lucide-react';
 interface SidebarItemProps {
   to: string;
@@ -44,6 +44,7 @@ const entrepreneurItems = [
     { to: '/document-chamber', icon: <FolderOpen size={20} />, text: 'Doc Chamber' },
     { to: '/messages', icon: <MessageCircle size={20} />, text: 'Messages' },
     { to: '/notifications', icon: <Bell size={20} />, text: 'Notifications' },
+    { to: '/payment', icon: <CreditCard size={20} />, text: 'Payments' },
     { to: '/documents', icon: <FileText size={20} />, text: 'Documents' },
   ];
   
@@ -56,6 +57,7 @@ const investorItems = [
     { to: '/document-chamber', icon: <FolderOpen size={20} />, text: 'Doc Chamber' },
     { to: '/messages', icon: <MessageCircle size={20} />, text: 'Messages' },
     { to: '/notifications', icon: <Bell size={20} />, text: 'Notifications' },
+    { to: '/payment', icon: <CreditCard size={20} />, text: 'Payments' },
     { to: '/deals', icon: <FileText size={20} />, text: 'Deals' },
   ];
   

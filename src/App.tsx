@@ -6,6 +6,9 @@ import {
 } from "react-router-dom";
 import { AuthProvider } from "./context/AuthContext";
 
+//payment page
+import PaymentPage from "./pages/payment/PaymentPage";
+
 //documents page
 import DocumentChamberPage from "./pages/documents-chamber/DocumentChamberPage";
 
@@ -50,6 +53,11 @@ function App() {
     <AuthProvider>
       <Router>
         <Routes>
+          {/* Payment Route */}
+          <Route path="/payment" element={<DashboardLayout />}>
+            <Route index element={<PaymentPage />} />
+          </Route>
+          
           {/* Video Call Route */}
           <Route path="/videocall" element={<DashboardLayout />}>
             <Route index element={<VideoCallPage />} />

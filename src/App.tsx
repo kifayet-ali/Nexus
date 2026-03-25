@@ -6,6 +6,9 @@ import {
 } from "react-router-dom";
 import { AuthProvider } from "./context/AuthContext";
 
+//security page
+import SecurityPage from "./pages/security/SecurityPage";
+
 //payment page
 import PaymentPage from "./pages/payment/PaymentPage";
 
@@ -53,11 +56,16 @@ function App() {
     <AuthProvider>
       <Router>
         <Routes>
+          {/* Security Route */}
+          <Route path="/security" element={<DashboardLayout />}>
+            <Route index element={<SecurityPage />} />
+          </Route>
+
           {/* Payment Route */}
           <Route path="/payment" element={<DashboardLayout />}>
             <Route index element={<PaymentPage />} />
           </Route>
-          
+
           {/* Video Call Route */}
           <Route path="/videocall" element={<DashboardLayout />}>
             <Route index element={<VideoCallPage />} />

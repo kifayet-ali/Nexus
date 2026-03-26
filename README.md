@@ -1,7 +1,7 @@
 # Nexus – Investor & Entrepreneur Collaboration Platform
 
 ## 🚀 Live Demo
-- **Vercel:** [https://nexus-9ilbo62s4-kifayet-alis-projects.vercel.app](https://nexus-gray-mu.vercel.app)
+- **Vercel:** https://nexus-9ilbo62s4-kifayet-alis-projects.vercel.app
 - **GitHub:** https://github.com/kifayet-ali/Nexus
 
 ## 📋 Project Structure
@@ -19,6 +19,7 @@
 - Lucide React (icons)
 - Axios
 - React Signature Canvas
+- React Joyride
 
 ## ✅ Features Completed
 
@@ -52,6 +53,27 @@
 - Update status panel for each document
 - Document stats dashboard
 - Delete documents
+
+### Week 3 - Milestone 5: Payment Section
+- Wallet balance display
+- Deposit / Withdraw / Transfer simulation
+- Transaction history table (type, sender, receiver, amount, status, date)
+- Status badges: completed / pending / failed
+- Fund a Deal mock flow (Investor → Entrepreneur)
+
+### Week 3 - Milestone 6: Security & Access Control
+- Password strength meter with 5-level indicator
+- Live password checklist (length, uppercase, number, special char)
+- Two-Factor Authentication mockup (OTP input)
+- Role-based UI (Entrepreneur vs Investor dashboards)
+- Security tips panel
+
+### Week 3 - Milestone 7: Integration & Demo Prep
+- Guided walkthrough with React Joyride tooltips
+- Quick Access panel on dashboard
+- Take Tour button for re-triggering walkthrough
+- All features accessible via sidebar navigation
+- Responsive layout across devices
 
 ## 🔧 Run Locally
 \`\`\`

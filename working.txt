@@ -16,7 +16,7 @@
 - Video Calling UI
 - Document Chamber
 
-## Week 3 ⬜
+## Week 3 ✅
 - Payment Section
 - Security & Access Control
 - Integration & Demo Prep
